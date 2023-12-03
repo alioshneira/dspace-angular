@@ -1,0 +1,68 @@
+<footer class="text-lg-start">
+  <div *ngIf="showTopFooter" class="top-footer">
+    <!-- Grid container -->
+    <div class=" container-fluid p-4">
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+          <h5 class="text-uppercase">Datos de Contacto</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              Dirección: Panamericana Sur Km. 8.5, Surco. Lima - Perú.
+            </li>
+            <li>
+              Correo electrónico: repositorio@monterrico.edu.pe.
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Sitios de Interés</h5>
+          <p>
+              <a href="https://alicia.concytec.gob.pe/vufind/"><img src="assets/unica/images/alicia.png"/></a>&nbsp;
+              <a href="https://www.lareferencia.info/es/"><img src="assets/unica/images/lareferencia.png"/></a>
+          </p>
+        </div>
+        
+      </div>
+      <!--Grid row-->
+    </div>
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <!-- <div class="bottom-footer p-1 d-flex justify-content-center align-items-center text-white">
+    <div class="content-container">
+      <p class="m-0">
+        <a class="text-white"
+           href="http://www.dspace.org/">{{ 'footer.link.dspace' | translate}}</a>
+        {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }}
+        <a class="text-white"
+           href="https://www.lyrasis.org/">{{ 'footer.link.lyrasis' | translate}}</a>
+      </p>
+      <ul class="footer-info list-unstyled small d-flex justify-content-center mb-0">
+        <li>
+            <a class="text-white" href="javascript:void(0);"
+             (click)="showCookieSettings()">{{ 'footer.link.cookies' | translate}}</a>
+        </li>
+        <li *ngIf="showPrivacyPolicy">
+          <a class="text-white"
+             routerLink="info/privacy">{{ 'footer.link.privacy-policy' | translate}}</a>
+        </li>
+        <li *ngIf="showEndUserAgreement">
+          <a class="text-white"
+             routerLink="info/end-user-agreement">{{ 'footer.link.end-user-agreement' | translate}}</a>
+        </li>
+        <li *ngIf="showSendFeedback$ | async">
+          <a class="text-white"
+             routerLink="info/feedback">{{ 'footer.link.feedback' | translate}}</a>
+        </li>
+      </ul>
+    </div>
+  </div> -->
+  <!-- Copyright -->
+</footer>
