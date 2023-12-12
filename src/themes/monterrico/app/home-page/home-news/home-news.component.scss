@@ -68,6 +68,28 @@
       color: var(--ds-home-news-link-hover-color);
     }
   }
+
+  .barra-iconos {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: rgba(255,255,255,.7);
+    margin-top: 40px;
+  }
+  .imagen{
+    padding-top: 20px;
+    text-align: center;    
+
+  }
+  .enlace{  
+    text-align: center;
+    font-size: large;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 
